@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+  
+  <title>How It Works? | yungchien&#39;s dream</title>
+  <meta name="author" content="Chris Xu">
+  
+  <meta name="description" content="Introduce how to use hexo with theme-freemind.">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="How It Works?"/>
+  <meta property="og:site_name" content="yungchien&#39;s dream"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+
+
+
+</head>
+
+ <body>  
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">yungchien&#39;s dream</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> How It Works?</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  
+		 <div class="alert alert-success description">
+			<i class="fa fa-info-circle"></i> <p>Introduce how to use hexo with theme-freemind.</p>
+			
+		 </div> <!-- alert -->
+	  		
+
+	  <h3 id="install-amp-config"><a href="#install-amp-config" class="headerlink" title="install&amp;config"></a>install&amp;config</h3><h4 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h4>
+undefined
+
+undefined
+
+
+<a id="more"></a>
+<h4 id="theme-freemind"><a href="#theme-freemind" class="headerlink" title="theme-freemind"></a>theme-freemind</h4>
+undefined
+
+
+<h3 id="md-write"><a href="#md-write" class="headerlink" title="md-write"></a>md-write</h3><p><a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">http://hexo.io/docs/writing.html</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">	knowledge</span><br><span class="line">	skill</span><br><span class="line">	soft_use</span><br><span class="line">	soft_dev</span><br><span class="line">	unuseful</span><br></pre></td></tr></table></figure></p>
+<h3 id="source-backup"><a href="#source-backup" class="headerlink" title="source-backup"></a>source-backup</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cd source</span><br><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;source backup&quot;</span><br><span class="line">git remote add origin https://gitcafe.com/channe/channe.git</span><br><span class="line">git push origin master:source		//gitcafe-pages分支默认是静态页面分支,我们把source保存在另一个分支下git</span><br><span class="line">(git push -u origin master)</span><br></pre></td></tr></table></figure>
+<h3 id="外链空间"><a href="#外链空间" class="headerlink" title="外链空间"></a>外链空间</h3><ul>
+<li>install qiniu-qrsync.exe</li>
+<li><p>bucket-channe 可用于备份静态页面分支,<a href="http://channe.qiniudn.com,可访问-&gt;qiniu.conf" target="_blank" rel="external">http://channe.qiniudn.com,可访问-&gt;qiniu.conf</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;access_key&quot;: &quot;********&quot;,</span><br><span class="line">    &quot;secret_key&quot;: &quot;********&quot;,</span><br><span class="line">    &quot;bucket&quot;: &quot;channe&quot;,</span><br><span class="line">    &quot;sync_dir&quot;: &quot;public&quot;,</span><br><span class="line">    &quot;async_ops&quot;: &quot;&quot;,</span><br><span class="line">    &quot;debug_level&quot;: 1</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>图片,视频,一切想嵌入在页面中的元素可以用另一个bucket存放-&gt;res.conf</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;access_key&quot;: &quot;********&quot;,</span><br><span class="line">    &quot;secret_key&quot;: &quot;********&quot;,</span><br><span class="line">    &quot;bucket&quot;: &quot;krisirk&quot;,</span><br><span class="line">    &quot;sync_dir&quot;: &quot;res&quot;,</span><br><span class="line">    &quot;async_ops&quot;: &quot;&quot;,</span><br><span class="line">    &quot;debug_level&quot;: 1</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="HEXO-DEPLOY"><a href="#HEXO-DEPLOY" class="headerlink" title="HEXO DEPLOY"></a>HEXO DEPLOY</h3><p>有时候网络不好,hexo d 发布命令老出错中断.我们来一发手动档.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &apos;channe&apos;</span><br><span class="line">git config --global user.email &apos;bearxuqian@gmail.com&apos;</span><br><span class="line">删除.deploy*文件夹里的.git目录.</span><br><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &apos;first commit&apos;</span><br><span class="line">git remote add origin &apos;git@gitcafe.com:channe/channe.git&apos;</span><br><span class="line">git checkout -b gitcafe-pages</span><br><span class="line">git push origin gitcafe-pages</span><br><span class="line">#git push -u origin master  HEXO DEPLOY命令是把local.master -&gt; origin.gitcafe-pages</span><br></pre></td></tr></table></figure></p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p class="text-info">http://cnpmjs.org/
+http://jiabin.tk/2013/06/22/add-rss-and%20sitemap-into-hexo/</p>	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/2011/08/25/2011-08-25-one-code-one-img/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+          <li class="next disabled"><a>下一页<i class="fa fa-arrow-circle-o-right"></i></a></li>
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2011-06-30 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/soft-use/">soft_use<span>3</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/hexo/">hexo<span>1</span></a></li> <li><a href="/tags/git/">git<span>1</span></a></li> <li><a href="/tags/qiniu/">qiniu<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#install-amp-config"><span class="toc-article-text">install&config</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#hexo"><span class="toc-article-text">hexo</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#theme-freemind"><span class="toc-article-text">theme-freemind</span></a></li></ol></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#md-write"><span class="toc-article-text">md-write</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#source-backup"><span class="toc-article-text">source-backup</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#外链空间"><span class="toc-article-text">外链空间</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#HEXO-DEPLOY"><span class="toc-article-text">HEXO DEPLOY</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#参考"><span class="toc-article-text">参考</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'httpchannegitcafecom';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2016 Chris Xu
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+</body>
+   </html>

@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+  
+  <title>MP3_ID3V1 | yungchien&#39;s dream</title>
+  <meta name="author" content="Chris Xu">
+  
+  <meta name="description" content="只是想太多!">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="MP3_ID3V1"/>
+  <meta property="og:site_name" content="yungchien&#39;s dream"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+
+
+
+</head>
+
+ <body>  
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">yungchien&#39;s dream</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> MP3_ID3V1</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <h3 id="双系统及酷狗用户-歌曲标签乱码-我是这样草草解决的"><a href="#双系统及酷狗用户-歌曲标签乱码-我是这样草草解决的" class="headerlink" title="双系统及酷狗用户,歌曲标签乱码,我是这样草草解决的"></a>双系统及酷狗用户,歌曲标签乱码,我是这样草草解决的</h3><pre><code>仅适用于win下酷狗软件下载的歌曲.形如artist - title.mp3
+1.foobar移除全部内嵌图像,歌词等.
+2.移除全部标签信息,本条针对日韩等.坦白说,我用不到这种信息唉.
+3.设置ID3V2.4写入标签版本.(默认utf-8)
+4.属性-&gt;工具-&gt;自动填充值    %artist% -%title% -
+</code></pre><a id="more"></a>    
+<img src="http://i1299.photobucket.com/albums/ag63/bearxuqian/CHANNE/photobucket/5_zpsf37048f6.png">    
+<p><font color="red">来自www:</font><br><br>id3v1 采用 ISO-8859-1 编码，在理论上，它是无法正确存储中文歌名的.<br><br>id3v2.3 除了可以使用 ISO-8859-1 编码外，也可以使用带 BOM 的 UTF-16.<br><br>尽管如此，很多中文 mp3 还是用 GBK 编码（ISO-8859-1）写入 id3v2.3，<br><br>所以会和 id3v1 一样有编码问题（mojibake）.<br><br>对于这类 mp3 文件，大多数 Windows 的播放器在中文区域下都可以正确显示中文歌名,<br><br>但是 Mac 和 Linux 下一般要进行 mp3 tag 编码转换，比如：EasyTAG，ID3Mod，nLyrics.<br><br>有些 tag 编码转换程序只能写入 id3v2.4<br><br>另外，针对 ISO-8859-1 编码的 tag，某些播放器会猜编码。歌名越长，猜中几率越高，但是一个字的歌名常常猜不对.<br><br>id3v2.4 除了可以用 UTF-16 外，也可以使用了 UTF-8 编码.<br><br>电脑上的播放器现在应该都支持 id3v2.4，<br><br>但是某些播放器（特别是便携设备上的）由于 codebase 的关系，<br><br>可能还在使用只支持到 id3v2.3 的 id3 库.<br><br>这些播放器一般不会直接忽略掉 id3v2.4 的 tag，但是不能读取 UTF-8 编码的歌名.<br><br>这样看来，为避免编码问题，最好的做法是：<br><br>用 UTF-16 编码写入 id3v2.3，并且删掉 id3v1；<br><br>假如 tag 转换程序只能写入 id3v2.4，应该使用带 BOM 的 UTF-16 编码（text encoding description byte = 0x01）.<br><br>Windows 资源管理器和 Windows Media Player 对 id3v2 的 Unicode 编码支持很差<br></p>
+<p>如果同时存在二种标签,KUGOO默认使用ID3V2.3<br>    MP3头文件以ID3开头,则一般为ID3V2.3/4版本.<br>    char Header[3];            /<em>必须为”ID3”否则认为标签不存在</em>/<br>    char Ver;                /<em>版本号ID3V2.3就记录3</em>/<br>    char Revision;            /<em>副版本号此版本记录为0</em>/<br>    char Flag;                /<em>存放标志的字节，这个版本只定义三位,一般为0</em>/<br>    char Size[4];            /<em>标签大小，包括标签头的10个字节和所有的标签帧的大小,4字节各后7位组成新的28bit</em>/<br>    494433 03 00 00  00         04              1D          0C<br>    IDE     3  0  0  00000000   00000100        00011101    00001100—&gt;10000111010001100</p>
+<hr>
+<pre><code>MP3尾部128字节(0x80)以TAG开头,则为ID3V1版本.
+名称                  位置                  长度                  内容
+Header                1-3                    3                   标签头(TAG)
+Title                4-33                30                  标题
+Artist                34-63                30                  艺术家
+Album                64-93                30                  专辑
+Year                94-97                4                   出品年代
+Comment                98-127                30                  备注
+Cenre                128                    1                   类型
+</code></pre>	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/2012/04/15/2012-04-15-dvb-beginner/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/2011/09/09/2011-09-09-360-webscan/" class="alignright next">下一页<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2011-10-13 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/knowledge/">knowledge<span>4</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#双系统及酷狗用户-歌曲标签乱码-我是这样草草解决的"><span class="toc-article-text">双系统及酷狗用户,歌曲标签乱码,我是这样草草解决的</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'httpchannegitcafecom';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2016 Chris Xu
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+</body>
+   </html>

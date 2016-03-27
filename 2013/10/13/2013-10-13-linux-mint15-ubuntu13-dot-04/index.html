@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+  
+  <title>linux mint15(raring) | yungchien&#39;s dream</title>
+  <meta name="author" content="Chris Xu">
+  
+  <meta name="description" content="只是想太多!">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="linux mint15(raring)"/>
+  <meta property="og:site_name" content="yungchien&#39;s dream"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+
+
+
+</head>
+
+ <body>  
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">yungchien&#39;s dream</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> linux mint15(raring)</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <h3 id="偶尔整理记录下来-排版是大坑"><a href="#偶尔整理记录下来-排版是大坑" class="headerlink" title="偶尔整理记录下来,排版是大坑."></a>偶尔整理记录下来,排版是大坑.</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Ubuntu系统架构关于启动项大致分为四类，每一类都分为系统级和用户级	 /home/channe/.dropbox-dist/dropboxd	</span><br><span class="line">第一类upstart，或者叫job，由init管理，配置文件目录/etc/init,~/.init</span><br><span class="line">第二类叫service，由rc.d管理，配置文件目录/etc/init.d，以及/etc/rc.local</span><br><span class="line">第三类叫cron，由contab管理，使用crontab进行配置</span><br><span class="line">第四类叫startup，由xdg管理，配置文件目录/etc/xdg/autostart，以及~/.config/autostart</span><br><span class="line">upstart任务适用于runlevel&lt;5的脚本和程序，service任务适用于runlevel&lt;=5的任务，cron任务则不一定，而startup一般工作在runlevel=5，也就是桌面级。</span><br><span class="line">对于普通用户而言，你的桌面级应用应该使用startup，服务级应用（比如某些功能性的软件脚本）应该使用service，常规性配置可以使用cron，而与启动顺序有关的最好使用upstart.</span><br><span class="line">头文件:			</span><br><span class="line">/usr/src</span><br><span class="line">/usr/lib</span><br><span class="line">/usr/include</span><br><span class="line">lspci |grep VGA</span><br><span class="line">系统环境变量修改/etc/profile，用户环境变量修改~/.profile.</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">添加osd-lyrics PPA,在/etc/apt/sources.list.d中修改raring---&gt;precise</span><br><span class="line">sudo apt-get install osdlyrics</span><br><span class="line">~/.lyrics</span><br><span class="line">%</span><br><span class="line">/media/channe/softwareinstall/Program Files (x86)/AutoLyric/lyrics</span><br></pre></td></tr></table></figure>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">####################################ps -aux|grep &lt;进程号&gt;</span></span><br><span class="line">查询已安装软件包						dpkg --get-selections | grep fcitx</span><br><span class="line">查询该文件属于那个安装包:				dpkg-query -S libGL.so.1</span><br><span class="line">查询系统中属于**的文件:					dpkg --listfiles **</span><br><span class="line">查询端口占用							netstat -apn | grep 127.0.0.1</span><br><span class="line">									lsof -i:8087</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo passwd root</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">卸载一些程序</span><br><span class="line">	sudo apt-get purge firefox*</span><br><span class="line">	sudo apt-get purge gimp*</span><br><span class="line">	sudo apt-get purge libreoffice-*</span><br><span class="line">	sudo apt-get purge pluma*/gedit*</span><br><span class="line">	sudo apt-get purge totem*					影响 mint-meta-codecs</span><br></pre></td></tr></table></figure>
+<p>更新语言包language support<br>upgrade<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">将home目录下的文件名保留为英文</span><br><span class="line">	<span class="built_in">export</span> LANG=en_US</span><br><span class="line">	xdg-user-dirs-gtk-update</span><br><span class="line">	跳出对话框询问是否将目录转化为英文路径,同意并关闭.</span><br><span class="line">	在终端中输入命令:</span><br><span class="line">	<span class="built_in">export</span> LANG=zh_CN</span><br></pre></td></tr></table></figure><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">安装一些程序</span><br><span class="line">	fcitx-table-wbpy					/home/channe/.xinputrc 为 fcitx</span><br><span class="line">	system-config-samba</span><br><span class="line">	mate-sensors-applet-ati(lm-sensors)				面板小监控程序</span><br><span class="line">	chrome</span><br><span class="line">	dropbox</span><br><span class="line">	virtualbox</span><br><span class="line">	ubuntu-tweak 0.8.5</span><br><span class="line">	<span class="comment">#蛋疼的A卡驱动,再完善的帮助文档也解决不了问题</span></span><br><span class="line">	驱动参考A卡WIKI,自带足够了. driver-manager --&gt; fglrx-updates</span><br><span class="line">	version 2: 9.012-0ubuntu1</span><br><span class="line">	channe@channe-ubuntu ~ $ fglrxinfo </span><br><span class="line">	display: :0.0  screen: 0</span><br><span class="line">	OpenGL vendor string: Advanced Micro Devices, Inc.</span><br><span class="line">	OpenGL renderer string: AMD Radeon HD 6500M/5600/5700 Series</span><br><span class="line">	OpenGL version string: 4.2.12002 Compatibility Profile Context 9.012</span><br></pre></td></tr></table></figure><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">配置VIM和GEANY</span><br><span class="line">	vim vim-runtime exuberant-ctags</span><br><span class="line">	geany</span><br><span class="line">	配置直接文件覆盖</span><br><span class="line">	/home/channe/.config/geany</span><br><span class="line">	/home/channe/.vim					～/.vimrc</span><br><span class="line">	<span class="comment">#说明geany</span></span><br><span class="line">	sudo add-apt-repository ppa:geany-dev/ppa </span><br><span class="line">	sudo apt-get update		</span><br><span class="line">	theme			~/.config/geany/filedefs and restart Geany.</span><br><span class="line">	tags代码提示		~/.config/geany/tags/</span><br><span class="line">	自动补全			~/.config/geany/snippets.conf</span><br><span class="line">	<span class="comment">#说明vim插件管理pathogen</span></span><br><span class="line">	/usr/share/vim/vim73/plugin</span><br><span class="line">	pathogen的下载地址为：https://github.com/tpope/vim-pathogen</span><br><span class="line">	下载后可以直接解压。pathogen插件只有一个单独的脚本，所谓安装就是把它放在当前用户的 ~/.vim/<span class="built_in">autoload</span> 目录下即可。</span><br><span class="line">	将解压后的<span class="built_in">autoload</span>目录连同里面的pathogen.vim插件拷贝到~/.vim/目录下。</span><br><span class="line">	如果没有~/.vimrc文件，创建该文件并将以下内容拷贝到该文件中：</span><br><span class="line">	call pathogen<span class="comment">#infect()</span></span><br><span class="line">	syntax on</span><br><span class="line">	filetype plugin indent on</span><br><span class="line">	要生成帮助文档的话，就在vim下输入:call pathogen<span class="comment">#helptags()即可。</span></span><br><span class="line">	要安装新插件，只需要下载该插件，并将其放到~/.vim/bundle/目录下</span><br><span class="line">	eg.</span><br><span class="line">		git <span class="built_in">clone</span> https://github.com/majutsushi/tagbar.git</span><br><span class="line">		git <span class="built_in">clone</span> http://github.com/scrooloose/nerdtree.git</span><br><span class="line">		git <span class="built_in">clone</span> https://github.com/ervandew/supertab.git</span><br><span class="line">		hg <span class="built_in">clone</span> https://bitbucket.org/abudden/taghighlight</span><br><span class="line">	左边taglist显示函数和变量，右边nerdtree显示源文件列表，omnicppcomplete自动补全，echofunc提示函数原型，再加上半自动的宏/结构体/全局变量高亮。</span><br></pre></td></tr></table></figure><br>修改仅自动获取IP,手动修改DNS—-&gt;广东地区114.114.114.114,202.96.128.86<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">乱码问题</span><br><span class="line">	<span class="comment">#VI乱码</span></span><br><span class="line">	查看locale <span class="_">-a</span></span><br><span class="line">	vi ~/.vimrc</span><br><span class="line">		<span class="built_in">let</span> &amp;termencoding=&amp;encoding</span><br><span class="line">		<span class="built_in">set</span> fileencodings=utf-8,gbk</span><br><span class="line">	<span class="comment">#GEANY乱码</span></span><br><span class="line">	编辑-&gt;首选项-&gt;文件-&gt;编码-&gt;非缺省编码(已存在文件打开方式)	</span><br><span class="line">	<span class="comment">#rhythmbox 乱码	</span></span><br><span class="line">	mid3iconv <span class="_">-e</span> GBK *.mp3</span><br><span class="line">	sudo gedit /etc/profile</span><br><span class="line">	<span class="built_in">export</span> PATH=<span class="variable">$PATH</span> GST_ID3_TAG_ENCODING=GBK:UTF-8:GB18030</span><br><span class="line">	<span class="built_in">export</span> PATH=<span class="variable">$PATH</span> GST_ID3V2_TAG_ENCODING=GBK:UTF-8:GB18030</span><br></pre></td></tr></table></figure><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">virtualbox</span><br><span class="line">	net use x:\\vboxsvr\share</span><br><span class="line">	mount -t vboxsf share mount_point</span><br><span class="line">	sudo gpasswd <span class="_">-a</span> [当前用户名] vboxusers</span><br><span class="line">	<span class="comment">#sudo apt-get install gnome-system-tools</span></span><br><span class="line">	选择 用户和组－&gt;编辑组－&gt;添加当前用户</span><br></pre></td></tr></table></figure><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">开机挂载fstab</span><br><span class="line">	查看UUID</span><br><span class="line">	1.sudo blkid</span><br><span class="line">	2.ls <span class="_">-l</span> /dev/disk/by-uuid</span><br><span class="line">	/dev/sda5: LABEL=<span class="string">"softwareinstall"</span> UUID=<span class="string">"8A42CD9342CD8503"</span> TYPE=<span class="string">"ntfs"</span> </span><br><span class="line">	vi /etc/fstab</span><br><span class="line">	UUID=8A42CD9342CD8503   /media/channe/softwareinstall   ntfs    defaults        0       0  </span><br><span class="line">	mount <span class="_">-a</span>测试</span><br></pre></td></tr></table></figure><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">从ubuntu换到mint后,发现添加了许多开机启动脚本.如下:</span><br><span class="line">/usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately			AT-SPI D-Bus Bus</span><br><span class="line">setxkbmap -option terminate:ctrl_alt_bksp								Ctrl Alt Backspace</span><br><span class="line">dropbox start -i														Dropbox</span><br><span class="line">fcitx-autostart</span><br><span class="line">mate-keyring-daemon --start --components=gpg							GPG 密码助手</span><br><span class="line">gsettings-data-convert													GSettings 数据转换</span><br><span class="line">/usr/bin/mate-settings-daemon											MATE 设置守护程序</span><br><span class="line">mintupdate-launcher	mintUpdate</span><br><span class="line">/usr/lib/linuxmint/mintUpload/launch-file-uploader.py					mintUpload</span><br><span class="line">mintwelcome-launcher													mintWelcome</span><br><span class="line">/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1			PolicyKit Authentication Agent</span><br><span class="line">/usr/lib/polkit-mate/polkit-mate-authentication-agent-1					PolicyKit 认证代理</span><br><span class="line">start-pulseaudio-kde													PulseAudio Sound System KDE Routing Policy</span><br><span class="line">start-pulseaudio-x11													PulseAudio 声音系统</span><br><span class="line">/usr/bin/mate-keyring-daemon --start --components=ssh					SSH 密钥助手</span><br><span class="line">xhost +																	Xhost +</span><br><span class="line">/usr/bin/mate-keyring-daemon --start --components=secrets				保密存储服务</span><br><span class="line">system-config-printer-applet											打印队列 Applet</span><br><span class="line">mate-power-manager														电源管理器</span><br><span class="line">mate-screensaver														屏幕保护程序</span><br><span class="line">mate-bluetooth-applet													蓝牙管理器</span><br><span class="line">nm-applet																管理网络连接</span><br><span class="line">mate-volume-control-applet												音量控制</span><br><span class="line">xdg-user-dirs-gtk-update  												用户文件夹更新 更新公共文件夹名称以匹配当前区域设置</span><br><span class="line">/usr/bin/mate-keyring-daemon --start --components=pkcs11  				证书和密钥存储,MATE 密钥环：PKCS<span class="comment">#11 组件</span></span><br><span class="line">/usr/lib/vino/vino-server --sm-disable									GNOME 桌面共享服务器</span><br><span class="line">而且可以选择让系统记住 注销时使用的程序</span><br><span class="line">其实这些东西存放在/etc/xdg/autostart目录下.</span><br></pre></td></tr></table></figure></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/2013/12/01/2013-12-01-my-desktop-about-mint15-olivia/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/2013/02/05/2013-02-05-some-troubles-about-tab/" class="alignright next">下一页<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2013-10-13 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/skill/">skill<span>11</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#偶尔整理记录下来-排版是大坑"><span class="toc-article-text">偶尔整理记录下来,排版是大坑.</span></a></li><li class="toc-article-item toc-article-level-3"><a class="toc-article-link" href="#常用命令"><span class="toc-article-text">常用命令</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'httpchannegitcafecom';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2016 Chris Xu
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+</body>
+   </html>

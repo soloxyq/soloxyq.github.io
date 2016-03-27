@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+  
+  <title>use ubuntu-14.04.2-desktop-amd64 in vm11 | yungchien&#39;s dream</title>
+  <meta name="author" content="Chris Xu">
+  
+  <meta name="description" content="对未来感到不安的时候,静静看书吧!">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="use ubuntu-14.04.2-desktop-amd64 in vm11"/>
+  <meta property="og:site_name" content="yungchien&#39;s dream"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+
+
+
+</head>
+
+ <body>  
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">yungchien&#39;s dream</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> use ubuntu-14.04.2-desktop-amd64 in vm11</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  
+		 <div class="alert alert-success description">
+			<i class="fa fa-info-circle"></i> <p>对未来感到不安的时候,静静看书吧!</p>
+			
+		 </div> <!-- alert -->
+	  		
+
+	  <h4 id="sudo-passwd-root"><a href="#sudo-passwd-root" class="headerlink" title="*sudo passwd root"></a>*sudo passwd root</h4><h4 id="remove-or-purge无关软件"><a href="#remove-or-purge无关软件" class="headerlink" title="*remove or purge无关软件"></a>*remove or purge无关软件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ibus-* libreoffice-* thunderbird-*</span><br><span class="line">sudo apt-get autoremove</span><br></pre></td></tr></table></figure>
+<h4 id="更改home目录文件夹中英文名称"><a href="#更改home目录文件夹中英文名称" class="headerlink" title="*更改home目录文件夹中英文名称"></a>*更改home目录文件夹中英文名称</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export LANG=en_US</span><br><span class="line">xdg-user-dirs-gtk-update</span><br><span class="line">export LANG=zh_CN</span><br></pre></td></tr></table></figure>
+<h4 id="dist-upgrade"><a href="#dist-upgrade" class="headerlink" title="*dist-upgrade"></a>*dist-upgrade</h4><h4 id="install-some"><a href="#install-some" class="headerlink" title="*install some"></a>*install some</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install dkms linux-headers-$(uname -r) build-essential psmisc ssh system-config-samba git ctags python-qt4</span><br></pre></td></tr></table></figure>
+<h4 id="VMware-Tools"><a href="#VMware-Tools" class="headerlink" title="*VMware-Tools"></a>*VMware-Tools</h4><p>install vmware-tools时出现关于vmhgfs.o的错误.<a id="more"></a><br>在<a href="http://stackoverflow.com/questions/28579182/error-installing-vmware-tools-9-9-after-upgrade-to-linux-image-3-13-0-46/28579368#28579368" target="_blank" rel="external">stackoverflow</a>外国人讨论中找到<a href="https://gist.github.com/battlecow/cb3ea9f4bafc1391d708" target="_blank" rel="external">patch inode.c</a><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> vmware-tools-distrib</span><br><span class="line"><span class="built_in">cd</span> lib/modules/<span class="built_in">source</span></span><br><span class="line">tar xvf vmhgfs.tar</span><br><span class="line"><span class="built_in">cd</span> vmhgfs-only</span><br><span class="line">vi inode.c(USE patch inode.c)</span><br><span class="line">tar cvf vmhgfs.tar vmhgfs-only</span><br><span class="line"><span class="built_in">cd</span> vmware-tools-distrib</span><br><span class="line">sudo ./vmware-install.pl</span><br></pre></td></tr></table></figure></p>
+<h4 id="config-some"><a href="#config-some" class="headerlink" title="*config some"></a>*config some</h4><p>multi-soft config like <a href="https://gitcafe.com/channe/Ubuntu_Home" target="_blank" rel="external">This</a><br></p><p class="text-danger">eg. vim config...</p><p></p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/2015/05/20/2015-05-20-linux-kernel-update-debug/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+  		
+
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/2015/05/09/2015-04-09-about-0X0d0a/" class="alignright next">下一页<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-05-20 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/skill/">skill<span>11</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/shell/">shell<span>2</span></a></li> <li><a href="/tags/ubuntu/">ubuntu<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#sudo-passwd-root"><span class="toc-article-text">*sudo passwd root</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#remove-or-purge无关软件"><span class="toc-article-text">*remove or purge无关软件</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#更改home目录文件夹中英文名称"><span class="toc-article-text">*更改home目录文件夹中英文名称</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#dist-upgrade"><span class="toc-article-text">*dist-upgrade</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#install-some"><span class="toc-article-text">*install some</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#VMware-Tools"><span class="toc-article-text">*VMware-Tools</span></a></li><li class="toc-article-item toc-article-level-4"><a class="toc-article-link" href="#config-some"><span class="toc-article-text">*config some</span></a></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'httpchannegitcafecom';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2016 Chris Xu
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+</body>
+   </html>
