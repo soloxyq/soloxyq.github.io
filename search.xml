@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[ToDoList]]></title>
-      <url>http://channe.gitcafe.com/9999/12/31/9999-12-31-ToDoList/</url>
+      <url>http://soloxyq.github.io/9999/12/31/ToDoList/</url>
       <content type="html"><![CDATA[<h4 id="ToDoList02-–-Trends"><a href="#ToDoList02-–-Trends" class="headerlink" title="ToDoList02 – Trends"></a>ToDoList02 – Trends</h4><img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/ToDoList/TodoTrends.png" title="[Project_Trends [#1]">
 <p>这个程序用来巩固和复习C语言基础.<br><a id="more"></a><br>功能:</p>
 <ul>
@@ -63,7 +63,7 @@
     
     <entry>
       <title><![CDATA[MSYS2+GIT+HEXO+DOCKER]]></title>
-      <url>http://channe.gitcafe.com/2016/01/08/2016-01-08-msys2+git+hexo+docker/</url>
+      <url>http://soloxyq.github.io/2016/01/08/msys2+git+hexo+docker/</url>
       <content type="html"><![CDATA[<h4 id="MSYS2"><a href="#MSYS2" class="headerlink" title="MSYS2"></a>MSYS2</h4><ul>
 <li>pacman -Syu</li>
 <li>pacman -S wget curl make</li>
@@ -102,7 +102,7 @@
     
     <entry>
       <title><![CDATA[2020]]></title>
-      <url>http://channe.gitcafe.com/2015/06/19/2015-06-19-2020/</url>
+      <url>http://soloxyq.github.io/2015/06/19/2020/</url>
       <content type="html"><![CDATA[<h4 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h4><ul>
 <li>c</li>
 </ul>
@@ -133,14 +133,14 @@
     
     <entry>
       <title><![CDATA[无题]]></title>
-      <url>http://channe.gitcafe.com/2015/06/01/2015-06-01-20150601/</url>
+      <url>http://soloxyq.github.io/2015/06/01/20150601/</url>
       <content type="html"><![CDATA[<p>关于公司OA内部聊天软件签名:<br>第一位老大是这样”珍爱生命,远离编程.”<br>第二位老大是这样”下辈子不做开发.”<br>六一节我也想到个签名.<br>“下辈子早点做开发.”<br>做无氧运动时,总有某些动作不愿意多做.<a id="more"></a><br>程序开发时,我们是否也在刻意回避自己的弱点?<br>每一次找工作,都是复现自身痛点的过程.<br>迫使自己记起当初的目标,更努力一点,快一点去完善自我.<br>PSIIIIXIIII:坑爹的英文.</p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[algorithm_全组合]]></title>
-      <url>http://channe.gitcafe.com/2015/05/21/2015-05-21-algorithm-zuhe-cnm/</url>
+      <url>http://soloxyq.github.io/2015/05/21/algorithm-zuhe-cnm/</url>
       <content type="html"><![CDATA[<p>添加标签插件<a href="http://blog.catx.me/2014/03/09/hexo-mathjax-plugin/" target="_blank" rel="external">hexo-math</a>,初次接触Tex这个概念.<br>以下是二种tag:</p>
 <ul>
 <li>math<br>&emsp;&emsp;<span>$C{^m_n} = \dfrac{n!}{m!(n-m)!}$</span><!-- Has MathJax --></li>
@@ -157,7 +157,7 @@
     
     <entry>
       <title><![CDATA[linux kernel bootargs&&update&&debug]]></title>
-      <url>http://channe.gitcafe.com/2015/05/20/2015-05-20-linux-kernel-update-debug/</url>
+      <url>http://soloxyq.github.io/2015/05/20/linux-kernel-update-debug/</url>
       <content type="html"><![CDATA[<h4 id="kernel-bootargs"><a href="#kernel-bootargs" class="headerlink" title="kernel bootargs"></a>kernel bootargs</h4><p>做android机顶盒时候,有一个小小小需求:LK/BOOT阶段设置按键可以让android启动后进入adb模式.<br>这就涉及到lk向kernel传递bootargs以及usb驱动层获取args的问题.<br>以下是我的patch:</p>
 <ul>
 <li><p>假设LK层获取了相应键值,处理程序加上</p>
@@ -195,7 +195,7 @@
     
     <entry>
       <title><![CDATA[use ubuntu-14.04.2-desktop-amd64 in vm11]]></title>
-      <url>http://channe.gitcafe.com/2015/05/20/2015-05-20-How-to-use-ubuntu-14-04-2-desktop-amd64-in-vmware/</url>
+      <url>http://soloxyq.github.io/2015/05/20/How-to-use-ubuntu-14-04-2-desktop-amd64-in-vmware/</url>
       <content type="html"><![CDATA[<h4 id="sudo-passwd-root"><a href="#sudo-passwd-root" class="headerlink" title="*sudo passwd root"></a>*sudo passwd root</h4><h4 id="remove-or-purge无关软件"><a href="#remove-or-purge无关软件" class="headerlink" title="*remove or purge无关软件"></a>*remove or purge无关软件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ibus-* libreoffice-* thunderbird-*</span><br><span class="line">sudo apt-get autoremove</span><br></pre></td></tr></table></figure>
 <h4 id="更改home目录文件夹中英文名称"><a href="#更改home目录文件夹中英文名称" class="headerlink" title="*更改home目录文件夹中英文名称"></a>*更改home目录文件夹中英文名称</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export LANG=en_US</span><br><span class="line">xdg-user-dirs-gtk-update</span><br><span class="line">export LANG=zh_CN</span><br></pre></td></tr></table></figure>
 <h4 id="dist-upgrade"><a href="#dist-upgrade" class="headerlink" title="*dist-upgrade"></a>*dist-upgrade</h4><h4 id="install-some"><a href="#install-some" class="headerlink" title="*install some"></a>*install some</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install dkms linux-headers-$(uname -r) build-essential psmisc ssh system-config-samba git ctags python-qt4</span><br></pre></td></tr></table></figure>
@@ -206,7 +206,7 @@
     
     <entry>
       <title><![CDATA[about 0X0d0a]]></title>
-      <url>http://channe.gitcafe.com/2015/05/09/2015-04-09-about-0X0d0a/</url>
+      <url>http://soloxyq.github.io/2015/05/09/about-0X0d0a/</url>
       <content type="html"><![CDATA[<h4 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h4><p>使用libcurl http方式从<a href="http://www.winrar.com.cn/download/winrar-x64-521sc.exe" target="_blank" rel="external">网络</a>下载到内存,然后写入本地文件.文件下载完在内存中Total: 2037448 bytes retrieved.写入本地文件就变成2044975 bytes.</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h4>
 Server -> MEM -> FILE
@@ -220,7 +220,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[和魔兽世界相关的一切]]></title>
-      <url>http://channe.gitcafe.com/2015/04/15/2015-04-15-all-in-WoW/</url>
+      <url>http://soloxyq.github.io/2015/04/15/all-in-WoW/</url>
       <content type="html"><![CDATA[<p>AFK了很久,最近翻到硬盘里面有一些零碎的魔兽世界相关的东西,整理一下吧.</p>
 <h2 id="与WoW有关的网站"><a href="#与WoW有关的网站" class="headerlink" title="与WoW有关的网站"></a>与WoW有关的网站</h2><span class="label label-danger">1</span>nga论坛:&emsp;&emsp;&emsp;&nbsp;<a href="http://bbs.ngacn.cc/" target="_blank" rel="external">NGA</a><br><span class="label label-danger">2</span>美服33天梯榜:&emsp;<a href="http://us.battle.net/wow/en/pvp/leaderboards/3v3" target="_blank" rel="external">arena</a><br><span class="label label-danger">3</span>rank-FD进度:&emsp;&nbsp;&nbsp;<a href="http://www.wowprogress.com" target="_blank" rel="external">wowprogress</a><br><span class="label label-danger">4</span>addon:&emsp;&emsp;&emsp;&emsp;&nbsp;<a href="http://www.wowinterface.com/addons.php" target="_blank" rel="external">wowinterface</a><br><span class="label label-danger">5</span>rank-DPS模拟:&nbsp;&nbsp;&nbsp;<a href="http://www.simulationcraft.org" target="_blank" rel="external">simc</a><br>一些玩家痛恨的网站:<br><span class="label label-danger">1</span>德国兄弟公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="www.honorbuddy.com">honorbuddy</a><br><span class="label label-danger">2</span>兄弟中文网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="www.13gm.com">13gm</a><br><a id="more"></a>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>Alliance-联盟<br>Horde-部落<br><img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/AllInWoW/role.png" align="left"><br><span class="label label-danger">Warrior</span><span class="label label-info">Mage</span><span class="label label-danger">Rogue</span><span class="label label-info">Druid</span><span class="label label-danger">Hunter</span><span class="label label-info">Shaman</span><span class="label label-danger">Priest</span><span class="label label-info">Warlock</span><span class="label label-danger">Paladin</span><span class="label label-info">DeathKnight</span><span class="label label-danger">Monk</span><br>魔兽的全部战斗,都简单地可以理解为<br>在一个时间轴长度内任一时刻点在合适的位置放出合适的技能.</p>
@@ -249,7 +249,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[ask.fm]]></title>
-      <url>http://channe.gitcafe.com/2015/04/01/2015-04-01-askfm/</url>
+      <url>http://soloxyq.github.io/2015/04/01/askfm/</url>
       <content type="html"><![CDATA[<span class="label label-danger">Q</span> 最有成就感的一行代码<br><span class="label label-success">A</span> 思考ing,这让我想起语文老师让我们写”最难忘的事”,当时想了很久…<br><br><span class="label label-danger">Q</span> 华为android荣耀os如何删除系统级别应用<br><span class="label label-success">A</span>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">一键root获取权限</span><br><span class="line">安装busybox + 超级终端</span><br><span class="line">打开超级终端</span><br><span class="line">su获取权限</span><br><span class="line">mount -o rw,remount /system</span><br><span class="line"><span class="built_in">cd</span> system</span><br><span class="line">chattr -R -i *</span><br><span class="line">re管理器删除system/<span class="built_in">set</span>_immutable.list</span><br></pre></td></tr></table></figure>
 <span class="label label-danger">Q</span> 魔兽服务端模拟器,也就是私服.<br><span class="label label-success">A</span> mangos  trinity<br><br><span class="label label-danger">Q</span> 红杏<br><span class="label label-success">A</span> 先用HostsTool工具,选择Seattle + IPv4,更新数据,写入hosts.另免费的<a href="http://www.freegetvpn.com/get-vpn" target="_blank" rel="external">VPN</a><br><a id="more"></a>
@@ -272,7 +272,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[POSIX&&ISO C_INC]]></title>
-      <url>http://channe.gitcafe.com/2015/03/21/2015-03-21-POSIX-ISO-C-INC/</url>
+      <url>http://soloxyq.github.io/2015/03/21/POSIX-ISO-C-INC/</url>
       <content type="html"><![CDATA[<img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/ISO_POSIX_INC/ISO_C_STAND_INC.png" title="[ISOC标准定义的头文件 [#1]"><a id="more"></a>
 <img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/ISO_POSIX_INC/POSIX.1_STAND_INC.png" title="[POSIX标准定义必需头文件 [#1]">
 <img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/ISO_POSIX_INC/POSIX.1_STAND_INC_OR.png" title="[POSIX标准定义可选头文件 [#1]">
@@ -282,7 +282,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[函数调用关系图]]></title>
-      <url>http://channe.gitcafe.com/2015/03/03/2015-03-03-trace-codes_pvtrace/</url>
+      <url>http://soloxyq.github.io/2015/03/03/trace-codes_pvtrace/</url>
       <content type="html"><![CDATA[<p>经常看代码的人大多用过下面的这些工具.</p>
 <ul>
 <li><a href="http://sourceforge.net/projects/sourcenav/" target="_blank" rel="external">Source Navigator NG</a></li>
@@ -300,7 +300,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[eset smart security firewall]]></title>
-      <url>http://channe.gitcafe.com/2015/02/28/2015-02-28-eset-smart-security-firewall/</url>
+      <url>http://soloxyq.github.io/2015/02/28/eset-smart-security-firewall/</url>
       <content type="html"><![CDATA[<p class="text-danger">适用下列情况.</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">禁止特定程序连接wan网</span><br><span class="line">但是又需要在局域网内传输数据</span><br></pre></td></tr></table></figure>
 <p>优先级 允许 &gt; 禁止.<br>举例: POWERDVD开启局域网dlna功能,但是防止激活失败(你懂的).<br><a id="more"></a><br><img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/ESS防火墙简单设置/1.png" title="[ESS [#1]"><br><img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/ESS防火墙简单设置/2.png" title="[ESS允许部分设置 [#2]"><br><img src="http://7vztq1.com1.z0.glb.clouddn.com/2015/ESS防火墙简单设置/4.png" title="[ESS禁止部分设置 [#3]"><br></p><p class="text-danger">参考:</p><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://www.aishadu.net/nod32-id</span><br></pre></td></tr></table></figure><p></p>
@@ -309,7 +309,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[diary0x0000]]></title>
-      <url>http://channe.gitcafe.com/2015/01/11/2015-01-11-diary0x0000/</url>
+      <url>http://soloxyq.github.io/2015/01/11/diary0x0000/</url>
       <content type="html"><![CDATA[<h4 id="“教育至上”与”教育无用”"><a href="#“教育至上”与”教育无用”" class="headerlink" title="“教育至上”与”教育无用”"></a>“教育至上”与”教育无用”</h4><p>从未像现在如此强烈的感到教育学习对我人生的影响是如此的清晰.<br>“物化生”主导了我对物质的理解,改变了我的生活方式.<br>“政史地”改变了我对社会的看法,改变了我的生活态度.<br>“数学”支撑着职业,”英文”变成了瓶颈.<br><a id="more"></a></p>
 <h4 id="TRUE-FALSE与NULL语"><a href="#TRUE-FALSE与NULL语" class="headerlink" title="TRUE,FALSE与NULL语"></a>TRUE,FALSE与NULL语</h4><p>我认为的NULL语用来描述的不能用2种状态表达的其他态,语言上即主观上的某种意义上经不起推敲的无意义的语句.<br>有人说”喜欢小孩子的人都坏不到哪去”,初次听到这句话的时候觉得对极了,但马上就会发现这句话是典型的NULL语.<br>首先”小孩子”可以任意替换,例如喜欢小狗的人都坏不到哪去,也没什么不妥.<br>其次”坏不到哪去”到底是个什么意思呢?到底是好还是坏呢?退一万步讲,好坏本身就不是客观的修饰词.<br>这样的例子还有好多.<br>本来NULL语在非正式的表达中会经常用到.<br>我常反省,为什么在第一次听到某些NULL语时会从心里由衷的感到共鸣,然后迫不及待的表达赞同,<br>以至于要过一段时间才能回味过来.<br>这样的内心活动让人感到羞耻.</p>
 <h4 id="奇怪的人"><a href="#奇怪的人" class="headerlink" title="奇怪的人"></a>奇怪的人</h4><p>有这样一种人,与其争辩,必要分出对错.<br>一种是他是对的,那自然没什么好说,夸夸其谈,丢几个例子直到你服了为止.因为你是错的所以认为你的能力不够.<br>一种是他是错的,但如果你没办法改变他的观点,他也认为你的能力不够,因为你手握正确的观点却不能说服他人,不是<br>能力不够还能是什么呢?<br>对这种天生立于不败之地的人来说,打败他的重担只能交给”慕容复”了.</p>
@@ -320,7 +320,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[Route_Ai-BR100]]></title>
-      <url>http://channe.gitcafe.com/2014/10/15/2014-10-15-route-xiaodu/</url>
+      <url>http://soloxyq.github.io/2014/10/15/route-xiaodu/</url>
       <content type="html"><![CDATA[<h2 id="reminiscence"><a href="#reminiscence" class="headerlink" title="reminiscence"></a>reminiscence</h2><p>大学时看过一篇blog,讲说PC软硬件厂商互相推动,”狼狈为奸”,没有需求硬是创造需求,但是商业市场是支持的,<br>因为通过竞争,抢夺市场,科技更快的向前发展,技术水平不断进步,这是符合人类社会发展方向的,是客观的.<br>根据这场竞争中巨头推出产品的速度,总结出了”摩尔定律”.<br><a id="more"></a></p>
 <h2 id="grumble"><a href="#grumble" class="headerlink" title="grumble"></a>grumble</h2><p>今天看来,随着PC出货量每况愈下,这一现象已经转移到了其他市场.<br>对我这种”够用就好”的人来说,是很讨厌这种现象的.电脑还能三四年换一换,手机一年不换就没人关心了.<br>对我这种无聊刷刷机的人来说,是无法忍受的.<br>像华为,百度这种”大公司”,推出的手机或者路由器等个人产品,软件支持时间大概是一年,甚至更短.<br>买个新手机,刚开始十天半个月推送个更新包,修修BUG,过个半年基本无人问津了.<br>可气的是官方不会说停止支持,像”起点”某些写小说太监的一样,有的是真的太监了,有的过个半年突然起死回生更新<br>了一两章.这造就了无数的民间大神,官方不更新让我来.所以有幸,只要多搜索,刷机党不会无事可”作”的.<br></p><p class="text-danger">PS:我要吐槽小度路由,顶着"三贱"的名号出世,其生命周期实在是短.</p><p></p>
 <h2 id="记录下小度路由刷机方法"><a href="#记录下小度路由刷机方法" class="headerlink" title="记录下小度路由刷机方法"></a>记录下小度路由刷机方法</h2><h3 id="record1"><a href="#record1" class="headerlink" title="record1"></a>record1</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[点我](http://downloads.openwrt.org.cn/PandoraBox/Baidu-BR100)</span><br><span class="line">下载2个bin文件,上面网址中根目录下是可以理解为OS的东西(小于8M), uboot目录里是可以理解为GRUB2的东西(大约128K).</span><br><span class="line">路由lan口有线连接电脑,设置同一网段,电脑上开户一个tftp服务的目录.把下载的uboot.bin文件放进去.</span><br><span class="line">telnet登录192.168.8.1(我使用的是putty工具,账号admin,密码空)</span><br><span class="line"><span class="built_in">cd</span> tmp</span><br><span class="line">tftp -g <span class="_">-l</span> u-boot.bin -r u-boot.bin 192.168.8.103</span><br><span class="line">mtd_write write u-boot.bin /dev/mtd0(write命令执行前ls确认下是否成功下载bin文件)</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure>
@@ -331,7 +331,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[学生时代linuxGAME]]></title>
-      <url>http://channe.gitcafe.com/2014/06/25/2014-06-25-some_pic_of_linux2/</url>
+      <url>http://soloxyq.github.io/2014/06/25/some_pic_of_linux2/</url>
       <content type="html"><![CDATA[<p class="text-info">买足球竞猜投入八千,收获八十,没那种命啊!以后不买彩票了.</p>
 <p class="text-warning">时刻谨记,to be a better man!</p>
 <p class="text-danger">朋友不好好写代码了，常把一百万用户挂在嘴边.创业不易,且行且珍惜！</p>
@@ -372,14 +372,14 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[osi&intel_tick_tock]]></title>
-      <url>http://channe.gitcafe.com/2014/05/28/2014-05-28-osi&intel_tick_tock/</url>
+      <url>http://soloxyq.github.io/2014/05/28/osi&intel_tick_tock/</url>
       <content type="html"><![CDATA[<p>intel_tick_tock and osi<br><img src="http://krisirk.qiniudn.com/osi&intel_tick_tock/osi.jpeg" title="[OSI [#1]"><br><a id="more"></a><br><img src="http://krisirk.qiniudn.com/osi&intel_tick_tock/intel_tick_tock.png" title="[Intel_tick_tock [#2]"></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[ubuntu14.04]]></title>
-      <url>http://channe.gitcafe.com/2014/04/16/2014-04-16-ubuntu1404/</url>
+      <url>http://soloxyq.github.io/2014/04/16/ubuntu1404/</url>
       <content type="html"><![CDATA[<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">重置Compiz，打开终端，输入命令</span><br><span class="line">dconf reset <span class="_">-f</span> /org/compiz/</span><br><span class="line">重启Unity：</span><br><span class="line">setsid unity</span><br><span class="line">重新使用unity默认的启动器图标</span><br><span class="line">unity --reset-icons</span><br><span class="line">注销并重新登陆</span><br></pre></td></tr></table></figure>
 <p>bcdedit /set {current} bootmenupolicy standard</p>
 ]]></content>
@@ -387,13 +387,13 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[Desktop_Mint15(Olivia)]]></title>
-      <url>http://channe.gitcafe.com/2013/12/01/2013-12-01-my-desktop-about-mint15-olivia/</url>
+      <url>http://soloxyq.github.io/2013/12/01/my-desktop-about-mint15-olivia/</url>
       <content type="html"><![CDATA[<img src="http://i1299.photobucket.com/albums/ag63/bearxuqian/linux/Screenshot_zps23e70d84.png">]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[linux mint15(raring)]]></title>
-      <url>http://channe.gitcafe.com/2013/10/13/2013-10-13-linux-mint15-ubuntu13-dot-04/</url>
+      <url>http://soloxyq.github.io/2013/10/13/linux-mint15-ubuntu13-dot-04/</url>
       <content type="html"><![CDATA[<h3 id="偶尔整理记录下来-排版是大坑"><a href="#偶尔整理记录下来-排版是大坑" class="headerlink" title="偶尔整理记录下来,排版是大坑."></a>偶尔整理记录下来,排版是大坑.</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">Ubuntu系统架构关于启动项大致分为四类，每一类都分为系统级和用户级	 /home/channe/.dropbox-dist/dropboxd	</span><br><span class="line">第一类upstart，或者叫job，由init管理，配置文件目录/etc/init,~/.init</span><br><span class="line">第二类叫service，由rc.d管理，配置文件目录/etc/init.d，以及/etc/rc.local</span><br><span class="line">第三类叫cron，由contab管理，使用crontab进行配置</span><br><span class="line">第四类叫startup，由xdg管理，配置文件目录/etc/xdg/autostart，以及~/.config/autostart</span><br><span class="line">upstart任务适用于runlevel&lt;5的脚本和程序，service任务适用于runlevel&lt;=5的任务，cron任务则不一定，而startup一般工作在runlevel=5，也就是桌面级。</span><br><span class="line">对于普通用户而言，你的桌面级应用应该使用startup，服务级应用（比如某些功能性的软件脚本）应该使用service，常规性配置可以使用cron，而与启动顺序有关的最好使用upstart.</span><br><span class="line">头文件:			</span><br><span class="line">/usr/src</span><br><span class="line">/usr/lib</span><br><span class="line">/usr/include</span><br><span class="line">lspci |grep VGA</span><br><span class="line">系统环境变量修改/etc/profile，用户环境变量修改~/.profile.</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">添加osd-lyrics PPA,在/etc/apt/sources.list.d中修改raring---&gt;precise</span><br><span class="line">sudo apt-get install osdlyrics</span><br><span class="line">~/.lyrics</span><br><span class="line">%</span><br><span class="line">/media/channe/softwareinstall/Program Files (x86)/AutoLyric/lyrics</span><br></pre></td></tr></table></figure>
@@ -406,7 +406,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[一些软件中TAB键冲突]]></title>
-      <url>http://channe.gitcafe.com/2013/02/05/2013-02-05-some-troubles-about-tab/</url>
+      <url>http://soloxyq.github.io/2013/02/05/some-troubles-about-tab/</url>
       <content type="html"><![CDATA[<img src="http://i1299.photobucket.com/albums/ag63/bearxuqian/CHANNE/photobucket/taeyeon_runningman_zps1c1f1b59.gif">
 <h3 id="OneNote-2013"><a href="#OneNote-2013" class="headerlink" title="OneNote 2013"></a>OneNote 2013</h3><p>onenote中table默认是插入制表符,有时候不要表格,需要4空格位,很烦有没有?<br><a id="more"></a><br>编程时,有时候我们也需要用4空格或者8空格来代替TABLE位,有没有?<br>onenote-&gt;文件-&gt;选项-&gt;自定义更正<br><img src="http://i1299.photobucket.com/albums/ag63/bearxuqian/CHANNE/photobucket/_zpsd60eaab1.png"><br><img src="http://i1299.photobucket.com/albums/ag63/bearxuqian/CHANNE/photobucket/1_zps45583df8.png"><br>根据需要设置就可以了.<br>以后只要在onenote中输入”/t”再按下空格就产生table(4/8空格)位了</p>
 <h3 id="VIM"><a href="#VIM" class="headerlink" title="VIM"></a>VIM</h3><p>VIM自定义配置一般会设置自动补全,例如pri后加TAB键自动补全printf.<br>直接输入ctrl+i解决tab位的问题(ctrl+v ctrl+i试试)</p>
@@ -415,14 +415,14 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[软件测试]]></title>
-      <url>http://channe.gitcafe.com/2012/11/03/2012-11-03-soft-test/</url>
+      <url>http://soloxyq.github.io/2012/11/03/soft-test/</url>
       <content type="html"><![CDATA[<p>软件测试<br><a id="more"></a><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line">白盒测试技术及工具</span><br><span class="line">	|------方法</span><br><span class="line">	|		|------语句覆盖</span><br><span class="line">	|		|------分支覆盖</span><br><span class="line">	|		|------条件覆盖</span><br><span class="line">	|		|------分支条件覆盖</span><br><span class="line">	|		|------组合覆盖</span><br><span class="line">	|		|------路径覆盖</span><br><span class="line">	|------使用Junit进行单元测试	</span><br><span class="line">	|------使用J<span class="built_in">test</span>进行白盒测试</span><br><span class="line">性能测试专题(LoadRunner)</span><br><span class="line">	|------LoarRunner的基本使用,性能测试计划的编写</span><br><span class="line">	|------插入事务,集合点,脚本参数化,检查点等</span><br><span class="line">	|------关联技术,手工设置场景和基于目标的场景,多机联合测试,IP欺骗</span><br><span class="line">	|------性能计数器分析,场景结果分析,性能测试系统分析及调优</span><br><span class="line">自动化测试专题(Quick Test Professional)</span><br><span class="line">	|------QTP的基本使用</span><br><span class="line">	|------QTP检查点,脚本参数化,多Action脚本</span><br><span class="line">	|------正则表达式,录制模式和场景恢复</span><br><span class="line">	|------虚拟对象,专家视图及VBScript编程</span><br><span class="line">	|------描述性编程</span><br><span class="line">测试管理工具(Quality Center)</span><br><span class="line">	|------站点管理</span><br><span class="line">	|------项目管理</span><br><span class="line">	|------测试管理</span><br><span class="line">Web测试专题(HttpWatch/WaitR/Selenium)</span><br><span class="line">测试开发基础(VBScript/Junit/Google Test)</span><br><span class="line">测试开发基础(VBScript/Shell)</span><br><span class="line">(VSS/SVN)	(Quality Center/ALM)	(Oracle/MySQL)	(ITP)	(Test Platform)</span><br><span class="line"><span class="comment">###############################################################################</span></span><br><span class="line">测试基础</span><br><span class="line">	|------配置管理</span><br><span class="line">	|------单元测试</span><br><span class="line">	|------软件质量</span><br><span class="line">	|------同行评审</span><br><span class="line">	|------集成测试</span><br><span class="line">	|------测试过程</span><br><span class="line">	|------需求管理</span><br><span class="line">	|------系统测试</span><br><span class="line">	|------测试覆盖率</span><br><span class="line">	|------测试用例设计方法</span><br><span class="line">	|------用例写作 缺陷管理</span><br><span class="line">	|------测试方法</span><br><span class="line">	|------Linux及环境部署</span><br><span class="line">	|------C/C++/JAVA/C<span class="comment">#</span></span><br><span class="line"><span class="comment">###############################################################################</span></span><br><span class="line">			需求评审</span><br><span class="line">系统测试计划		系统测试计划评审</span><br><span class="line">系统测试方案		系统测试方案评审</span><br><span class="line">系统测试用例设计	系统测试用例评审</span><br><span class="line">预测试				预测试评审</span><br><span class="line">			转系统测试</span><br><span class="line">			系统测试执行</span><br><span class="line">			回归测试</span><br><span class="line">系统测试报告		测试报告评审</span><br><span class="line">测试需求分析	软件度量分析	数据库分析	架构分析	缺陷分析</span><br><span class="line"><span class="comment">###############################################################################</span></span><br><span class="line">IEEE829标准</span><br><span class="line">	|------实践项目测试计划(SVVP/Test Plan)</span><br><span class="line">	|------实践项目测试设计(Test Strategy)</span><br><span class="line">	|------实践项目测试实现(Test Cases)</span><br><span class="line">	|------实践项目测试执行(Test Report)</span><br><span class="line"><span class="comment">###############################################################################</span></span><br><span class="line">软件测试基础理论</span><br><span class="line">	|------软件测试基本概念</span><br><span class="line">	|------编写测试用例</span><br><span class="line">	|------设计测试用例</span><br><span class="line">	|------缺陷报告的编写和缺陷跟踪工具的使用</span><br><span class="line">	|------编写测试总结报告</span><br><span class="line"><span class="comment">###############################################################################</span></span><br></pre></td></tr></table></figure></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[学生时代linux桌面美化]]></title>
-      <url>http://channe.gitcafe.com/2012/06/23/2012-06-23-some_pic_of_linux/</url>
+      <url>http://soloxyq.github.io/2012/06/23/some_pic_of_linux/</url>
       <content type="html"><![CDATA[<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><h3 id="Linux-Desktop"><a href="#Linux-Desktop" class="headerlink" title="Linux_Desktop"></a>Linux_Desktop</h3><a id="more"></a>
 <img src="http://krisirk.qiniudn.com/linux_desktop/Screensho6t.jpg" title="[WoW [#1]">
 <img src="http://krisirk.qiniudn.com/linux_desktop/Screenshot-1.jpg" title="[WoW [#2]">
@@ -442,7 +442,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[[转]全面解析扬智高清有线机顶盒整体解决方案]]></title>
-      <url>http://channe.gitcafe.com/2012/04/15/2012-04-15-dvb-beginner/</url>
+      <url>http://soloxyq.github.io/2012/04/15/dvb-beginner/</url>
       <content type="html"><![CDATA[<p>转自Ali台湾官方网站.</p>
 <h3 id="高清有线STB的现状和未来的发展"><a href="#高清有线STB的现状和未来的发展" class="headerlink" title="高清有线STB的现状和未来的发展"></a>高清有线STB的现状和未来的发展</h3><p>2010年随着三网融合、高清普及、下一代广播电视网路（NGB）等广电重大布局的展开，国<br>内高清市场进入快速发展期。各地高清频道纷纷落地，许多地方的高清整转进一步点燃了用<br>户使用高清的热情。随着高清STB成本的逐渐降低，原来标清双向的STB被高清直接取代的趋<br>势也越来越明显。<br>一方面老百姓中的大尺寸电视盼望着价廉物美的平移型高清解决方案，另一方面广电运营商<br>也希望借助高清给用户提供更多样的应用，增加广电的运营能力。在多方需求的推动下，各<br>种各样的高清方案也如雨后春笋一般，纷纷涌现。 很难说什么样的高清方案是最好的，机顶<br>盒厂商，运营商，还有终端老百姓用户都有自己的考量，但最终被老百姓接受的一定是最实<br>用，性价比最高的高清方案。高清的车轮已经滚滚开动，在数字电视的领域，无论是谁，<br>没有高清就没有未来。<br><a id="more"></a></p>
 <h3 id="目前高清有线STB的解决方案"><a href="#目前高清有线STB的解决方案" class="headerlink" title="目前高清有线STB的解决方案"></a>目前高清有线STB的解决方案</h3><p>随着高清的蓬勃发展，目前市场上高清STB的解决方案也有许多，下面从硬件和软件两个角<br>度对高清的解决方案进行分析。</p>
@@ -466,7 +466,7 @@ Server -> MEM -> FILE
     
     <entry>
       <title><![CDATA[MP3_ID3V1]]></title>
-      <url>http://channe.gitcafe.com/2011/10/13/2011-10-13-mp3-id3v1/</url>
+      <url>http://soloxyq.github.io/2011/10/13/mp3-id3v1/</url>
       <content type="html"><![CDATA[<h3 id="双系统及酷狗用户-歌曲标签乱码-我是这样草草解决的"><a href="#双系统及酷狗用户-歌曲标签乱码-我是这样草草解决的" class="headerlink" title="双系统及酷狗用户,歌曲标签乱码,我是这样草草解决的"></a>双系统及酷狗用户,歌曲标签乱码,我是这样草草解决的</h3><pre><code>仅适用于win下酷狗软件下载的歌曲.形如artist - title.mp3
 1.foobar移除全部内嵌图像,歌词等.
 2.移除全部标签信息,本条针对日韩等.坦白说,我用不到这种信息唉.
@@ -491,14 +491,14 @@ Cenre                128                    1                   类型
     
     <entry>
       <title><![CDATA[360_webscan]]></title>
-      <url>http://channe.gitcafe.com/2011/09/09/2011-09-09-360-webscan/</url>
+      <url>http://soloxyq.github.io/2011/09/09/360-webscan/</url>
       <content type="html"><![CDATA[<p><a href="http://webscan.360.cn/index/checkwebsite/url/xuqiansmbd.cn" target="_blank" rel="external"><img border="0" src="http://img.webscan.360.cn/status/pai/hash/762b4945a48bc15c1713812db4be58a4"></a></p>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[about grub and drivers for A]]></title>
-      <url>http://channe.gitcafe.com/2011/09/06/2011-09-06-about-grub/</url>
+      <url>http://soloxyq.github.io/2011/09/06/about-grub/</url>
       <content type="html"><![CDATA[<h3 id="1-drivers-for-ATI"><a href="#1-drivers-for-ATI" class="headerlink" title="1. drivers for ATI"></a>1. drivers for ATI</h3><p>1.1 更新内核或者显卡驱动造成重启后黑屏,需要<font color="red">卸载驱动</font><br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get remove --purge fglrx fglrx_* fglrx-amdcccle* fglrx-dev*</span><br></pre></td></tr></table></figure></p>
 <h3 id="2-grub-rescue"><a href="#2-grub-rescue" class="headerlink" title="2. grub_rescue"></a>2. grub_rescue</h3><p>仅限于分区文件未破坏(格式化)<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo -i</span><br><span class="line">fdisk <span class="_">-l</span></span><br><span class="line">mount /dev/sdaX /mnt</span><br><span class="line">mount /dev/sdaY /mnt/boot	<span class="comment">#如果设置了单独的boot分区</span></span><br><span class="line">grub-install --root-directory=/mnt/ /dev/sda</span><br><span class="line"><span class="comment">#或者set root='(hd0,msdosX)'</span></span><br><span class="line">update-grub</span><br><span class="line">grub-install /dev/sda</span><br></pre></td></tr></table></figure><br><a id="more"></a></p>
 <h3 id="3-os-install"><a href="#3-os-install" class="headerlink" title="3. os_install"></a>3. os_install</h3><p>dvd安装很简单,这里以livecd为例<br></p>
@@ -525,7 +525,7 @@ undefined
     
     <entry>
       <title><![CDATA[一行代码一张图,一个视频一首歌]]></title>
-      <url>http://channe.gitcafe.com/2011/08/25/2011-08-25-one-code-one-img/</url>
+      <url>http://soloxyq.github.io/2011/08/25/one-code-one-img/</url>
       <content type="html"><![CDATA[<h3 id="一行代码"><a href="#一行代码" class="headerlink" title="一行代码"></a>一行代码</h3><figure class="highlight objc"><figcaption><span>title_test</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="一张图片"><a href="#一张图片" class="headerlink" title="一张图片"></a>一张图片</h3><p></p><p><img src="http://i1299.photobucket.com/albums/ag63/bearxuqian/snsd/taeyeon/20130711_220108_014_zpsa7d21ce4.jpg" class="left" width="232" height="310" title="金泰妍 #1"><br><img src="http://i1299.photobucket.com/albums/ag63/bearxuqian/snsd/taeyeon/20130711_220108_014_zpsa7d21ce4.jpg" class="right" width="232" height="310" title="金泰妍 #2"></p>
@@ -538,7 +538,7 @@ undefined
     
     <entry>
       <title><![CDATA[How It Works?]]></title>
-      <url>http://channe.gitcafe.com/2011/06/30/2011-06-30-how%20it%20works/</url>
+      <url>http://soloxyq.github.io/2011/06/30/how%20it%20works/</url>
       <content type="html"><![CDATA[<h3 id="install-amp-config"><a href="#install-amp-config" class="headerlink" title="install&amp;config"></a>install&amp;config</h3><h4 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h4>
 undefined
 
